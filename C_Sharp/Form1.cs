@@ -22,7 +22,7 @@ namespace C_Sharp
             for (int i = 0; i < 5; ++i)
             {
                 Thread.Sleep(1000);
-                listBox1.Items.Add(Thread.CurrentThread.ManagedThreadId.ToString() + " " + "按钮" + btnID.ToString() + ": " + (i + 1).ToString());
+                listBox1.Items.Add(Thread.CurrentThread.ManagedThreadId.ToString() + " 按钮" + btnID.ToString() + ": " + (i + 1).ToString());
             }
         }
 
